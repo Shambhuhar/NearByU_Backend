@@ -1,0 +1,72 @@
+Worker = 
+
+{
+    "firstname":"worker 2",
+    "lastname": "worker",
+    "email": "worker2@gmail.com",
+    "password":"password",
+    "phone":"123456789",
+    "city":"city",
+    "workexperiance": 2,
+    "status": 1,
+    "address":"sdf",
+    "activetime": "08:30:00",
+    "categories": [
+    {
+        "id": 1
+    }
+    ]
+}
+
+customer = 
+
+{
+    "first_name":"worker 2",
+    "last_name": "worker",
+    "email": "worker2@gmail.com",
+    "password":"password",
+    "phone_no":"123456789",
+    "city":"city",
+    "address":"sdf",
+    "aadhar_no": 1234,
+    "pin_code":123
+}
+
+category = 
+
+{
+    "name":"category 2",
+    "description": "category 2"
+}
+
+order = 
+
+{
+    "worker": {
+        "worker":1
+    },
+    "customer":{
+        "customer": 1
+    },
+    "comment": "sdfghj",
+    "rating":4
+
+}
+
+
+Feedback =
+
+{
+    "worker": {
+        "worker":1
+    },
+    "customer":{
+        "customer": 1
+    },
+    "order":{
+        "order": 1
+    },
+    "comment": "sdfghj",
+    "rating":4
+
+}
